@@ -11,6 +11,10 @@ fun main() {
     var count = 0
 
     for(step in step_types) {
-
+        val nextRow = row + step[0]
+        val nextCol = col + step[1]
+        if(nextRow in 1..8 && nextCol in 1..8) count++
     }
+
+    println(count)
 }
