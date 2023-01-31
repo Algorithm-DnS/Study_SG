@@ -2,7 +2,6 @@ package Chap05_BFS_DFS.QueueEx
 
 import java.util.*
 
-
 fun main() {
     var queue : Queue<Int> = LinkedList() // 큐로 선언하고 LinkedList 로 할당
 
